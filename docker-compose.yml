@@ -1,0 +1,8 @@
+version: '2'
+services:
+  nginx:
+    image: shakyshane/nginx-cors
+    ports:
+      - 8090:80
+    environment:
+      - TARGET_DOMAIN=example.com
