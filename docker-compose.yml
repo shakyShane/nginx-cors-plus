@@ -5,4 +5,4 @@ services:
     ports:
       - 8090:80
     environment:
-      - TARGET_DOMAIN=example.com
+      - TARGET=example.com
