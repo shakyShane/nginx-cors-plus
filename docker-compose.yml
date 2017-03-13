@@ -1,7 +1,7 @@
 version: '2'
 services:
   nginx:
-    image: shakyshane/nginx-cors
+    image: shakyshane/nginx-cors-plus
     ports:
       - 8090:80
     environment:
