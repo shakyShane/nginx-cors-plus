@@ -1,8 +1,8 @@
-version: '2'
+version: '3'
 services:
   nginx:
-    image: shakyshane/nginx-cors-plus
+    image: shepelievd/nginx-cors-plus
     ports:
       - 8090:80
     environment:
-      - TARGET=example.com
+      - TARGET=http://example.com
