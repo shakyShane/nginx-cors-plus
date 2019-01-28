@@ -7,7 +7,7 @@ as the request content-type.
 ** Docker Run: **
 
 ```bash
-docker run -p 8080:80 -e TARGET=example.com shakyshane/nginx-cors-plus
+docker run -p 8080:80 -e TARGET=example.com caousn/nginx-cors-plus
 ```
 
 ** Docker Compose: **
@@ -16,7 +16,7 @@ docker run -p 8080:80 -e TARGET=example.com shakyshane/nginx-cors-plus
 version: '2'
 services:
   nginx:
-    image: shakyshane/nginx-cors-plus
+    image: caousn/nginx-cors-plus
     ports:
       - 8090:80
     environment:
